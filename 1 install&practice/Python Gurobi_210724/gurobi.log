@@ -1,0 +1,31 @@
+
+Gurobi 9.1.2 (mac64, gurobi_cl) logging started Sat Aug 21 14:20:33 2021
+
+Academic license - for non-commercial use only - expires 2022-08-16
+Using license file /Users/kounuki/gurobi.lic
+Set parameter LogFile to value gurobi.log
+
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (mac64)
+Copyright (c) 2021, Gurobi Optimization, LLC
+
+Read LP format model from file test.lp
+Reading time = 0.00 seconds
+: 4 rows, 3 columns, 12 nonzeros
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 4 rows, 3 columns and 12 nonzeros
+Model fingerprint: 0x006d943f
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [3e+01, 3e+01]
+  RHS range        [6e+01, 6e+01]
+Presolve removed 2 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 2 rows, 3 columns, 6 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.8000000e+03   3.750000e+00   0.000000e+00      0s
+       2    1.2300000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  1.230000000e+03
