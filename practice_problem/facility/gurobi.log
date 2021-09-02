@@ -1,0 +1,48 @@
+
+Gurobi 9.1.2 (mac64, Python) logging started Mon Aug 30 17:25:41 2021
+
+Academic license - for non-commercial use only - expires 2022-08-16
+Using license file /Users/kounuki/gurobi.lic
+Set parameter LogFile to value gurobi.log
+
+Gurobi 9.1.2 (mac64, Python) logging started Mon Aug 30 17:29:52 2021
+
+Academic license - for non-commercial use only - expires 2022-08-16
+Using license file /Users/kounuki/gurobi.lic
+Set parameter LogFile to value gurobi.log
+Read LP format model from file facility.lp
+Reading time = 0.00 seconds
+: 7 rows, 16 columns, 28 nonzeros
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (mac64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 7 rows, 16 columns and 28 nonzeros
+Model fingerprint: 0x39f80f7d
+Variable types: 12 continuous, 4 integer (4 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [8e+00, 4e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+01, 3e+01]
+Presolve time: 0.01s
+Presolved: 7 rows, 16 columns, 28 nonzeros
+Variable types: 12 continuous, 4 integer (4 binary)
+
+Root relaxation: objective 7.199714e+02, 7 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  719.97143    0    3          -  719.97143      -     -    0s
+H    0     0                     745.0000000  719.97143  3.36%     -    0s
+H    0     0                     731.0000000  719.97143  1.51%     -    0s
+
+Cutting planes:
+  Flow cover: 1
+
+Explored 1 nodes (7 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 731 745 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.310000000000e+02, best bound 7.310000000000e+02, gap 0.0000%
